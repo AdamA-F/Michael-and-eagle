@@ -1,0 +1,143 @@
+Getting Michael & Eagle onto the internet
+
+Hi :)
+
+Here’s the workflow for putting the website online with GitHub Pages. We can go through this one step at a time in the chat — this is your copy to keep beside you.
+
+You’ll need a free GitHub account and the Michael-and-Eagle-Website.zip download. You won’t need Terminal or any paid software. GitHub Pages is free when the website files are in a public repository (GitHub’s word for a project folder).
+
+1. Sign in to GitHub
+
+Open https://github.com/ and choose Sign in. If you haven’t got an account, choose Sign up and create a free personal account. Complete any email verification it asks for.
+
+If you already have a GitHub account, use that one. You don’t need to wait for student benefits to do this.
+
+2. Unzip the website
+
+Download Michael-and-Eagle-Website.zip. On a Mac, double-click it in Finder to unzip it.
+
+Open Michael-and-Eagle-Website, then open the website folder inside it. You should see index.html, several .css and .js files, and an assets folder.
+
+Keep these together. index.html is the page; the other files provide the styling, interactions and pictures. The assets folder contains the smaller pictures and the large viewing pictures.
+
+You can double-click index.html to have a look locally. That only opens it on your computer — the upload steps below give it a link other people can visit.
+
+3. Make a repository
+
+In GitHub, use the + menu at the top right > New repository.
+
+Use these settings:
+
+Owner: your personal account
+Repository name: michael-and-eagle
+Description: Michael & Eagle Lettings. A property company with an actual door.
+Visibility: Public
+Add README: On
+Add .gitignore: None
+Choose a licence: None for now
+
+Public means people can see the website files as well as the finished page. The website folder in this package contains only the files needed by the site.
+
+Click Create repository.
+
+4. Upload the website files
+
+You should now be on the repository’s Code tab.
+
+Choose Add file > Upload files.
+
+In Finder, open the website folder from step 2. Select everything INSIDE it — all the files and the whole assets folder — and drag that selection into GitHub’s upload area.
+
+Don’t upload the zip, the outer Michael-and-Eagle-Website folder, or the website folder itself. We want index.html directly at the top of the repository, beside README.md.
+
+Allow the uploads to finish. There are 48 website files, including 36 image files. Each file is below GitHub’s browser upload limit.
+
+Under Commit changes, use this message:
+
+Add Michael and Eagle website
+
+Choose Commit directly to the main branch, then click Commit changes.
+
+You should see index.html, the .css and .js files, and assets in the main file list. Open assets briefly: flats and large should be folders inside it.
+
+5. Switch on GitHub Pages
+
+Open the repository’s Settings tab > Pages in the left sidebar.
+
+Under Build and deployment, set:
+
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
+
+Click Save.
+
+Leave Custom domain blank. GitHub supplies the website address, so you don’t need to buy a domain.
+
+If main isn’t available yet, go back to Code and check that the upload was committed in step 4.
+
+6. Open the finished website
+
+Give GitHub a few minutes. Publishing can take up to 10 minutes.
+
+Return to Settings > Pages and look for the published address or Visit site button. It will have this shape:
+
+https://YOUR-USERNAME.github.io/michael-and-eagle/
+
+That is an example — use the actual address GitHub shows you.
+
+Open it and try these bits:
+
+• Have a look > Take a very normal viewing. The large photograph should appear with its three numbered markers.
+• Sound: on beneath the company film, then Play presentation. You should hear the keyboard tune and the dance effects later in the film.
+• View our coverage at the bottom. The eagle now has his own visible area report. Ask him again for another announcement.
+
+The 30 eagle lines are shuffled and work through the full set before repeating. Sound starts off each time you open the page; switch it on when you want it.
+
+Once it’s working, copy the address from Settings > Pages to share it. The github.com repository address shows the files; the github.io address opens the website.
+
+7. Changing things later
+
+Keep a copy of the complete website folder on your computer.
+
+When you have updated files, open the repository’s Code tab > Add file > Upload files. Upload the replacement files in the same locations, then commit the changes. GitHub Pages republishes from main automatically.
+
+If you’re changing a picture, keep its folder and filename consistent with the website code. The large photos are in assets/large; the smaller new flat photos are in assets/flats.
+
+For a full replacement package, upload the contents of its website folder again, just as in step 4. Replacing files doesn’t delete old files with different names.
+
+If something looks wrong
+
+A 404 page: allow up to 10 minutes, then check Settings > Pages is set to main and / (root). Check index.html is at the top of the repository, not inside an extra website folder.
+
+Missing pictures: check the assets folder and its flats and large folders made it across. The filenames and capital letters need to match. This package already uses the right relative paths for a GitHub project website.
+
+An older version: reload the page, or open the address in a private browsing window after GitHub has finished publishing.
+
+No sound: switch Sound on beneath the film, check your computer’s volume and that the browser tab isn’t muted, then press Play presentation again. The controls elsewhere on the page use the same sound setting.
+
+Optional: GitHub Education
+
+The Student Developer Pack is useful if you’re eligible, but it isn’t needed for this website. GitHub Pages on a public repository is already free.
+
+Student information:
+https://docs.github.com/en/education/about-github-education/github-education-for-students/about-github-education-for-students
+
+If you’re applying as a teacher, use the teacher route and check its eligibility requirements:
+https://docs.github.com/en/education/about-github-education/github-education-for-teachers/about-github-education-for-teachers
+
+And that’s it. A complete branch of Michael & Eagle, open on the computer. Have a play :)
+
+Official instructions, checked 8 October 2026:
+
+About GitHub Pages and its free plan:
+https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+
+Creating the website:
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+Uploading files:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+
+Choosing the publishing settings:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
